@@ -24,6 +24,8 @@ header{
     align-items: center;
     font-size: 18px;
     font-weight: 500;
+    margin-left: 50px;
+    margin-right: 80px;
 }
 
 img{
@@ -32,7 +34,7 @@ img{
 
 li{
     display: inline-block;
-    margin: 30px;
+    margin: 15px;
 }
 
 a{
@@ -56,9 +58,23 @@ a:hover{
 }
 
 main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    background:url("mariofundo.jpg");
+    background-size: cover;
+    width: 1024px;
+	height: 576px;
+    margin: 0 auto;
+    
+    margin-top: 10px;
     align-items: center;
-    background-color: rgb(248, 28, 28);
+}
+
+h1{
+    margin-left: 60px;
+    font-size: 50px;
+    color: yellow;
+}
+
+p{
+    position: relative;
+    
 }
